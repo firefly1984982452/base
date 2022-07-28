@@ -1,47 +1,46 @@
 /* 全局总页面 */
-.global-page{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 0 .11rem .13rem .11rem;
+.global-page {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 0.11rem 0.13rem 0.11rem;
 }
 /* 页面左边和右边 */
-.global-page-left,.global-page-right{
-    width: 4.9rem;
-    height: 9.79rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-
+.global-page-left,
+.global-page-right {
+  width: 4.9rem;
+  height: 9.79rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
-.global-page-right{
-    position: relative;
+.global-page-right {
+  position: relative;
 }
-.global-page-content{
-
+.global-page-content {
 }
 /* 盒子 */
 .global-box {
-    width:4.91rem;
-    height:3.18rem;
-    background:rgba(1,15,64,1);
-    box-shadow:0px 0px 2px 0px rgba(28,37,84,1),0px 0px 3px 1px rgba(129,172,244,0.33);
-    opacity:0.9;
-    border:1px solid rgba(60,131,252,0.2);
-    padding: .17rem .22rem;
+  width: 4.91rem;
+  height: 3.18rem;
+  background: rgba(1, 15, 64, 0.1);
+  box-shadow: 0px 0px 2px 0px rgba(28, 37, 84, 1), 0px 0px 3px 1px rgba(129, 172, 244, 0.33);
+  opacity: 0.9;
+  border: 1px solid rgba(60, 131, 252, 0.2);
+  padding: 0.17rem 0.22rem;
 }
 /* 如果标题不仅仅只显示文字的话 */
-.global-title-box{
-    width: 4.62rem;
-    height: .25rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+.global-title-box {
+  width: 4.62rem;
+  height: 0.25rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 /* 盒子里面如果不止只有一个echarts的话 */
 .global-box-content {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }

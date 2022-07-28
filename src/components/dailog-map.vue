@@ -25,7 +25,7 @@ export default {
 .box {
   width: 3.34rem;
   height: 2.14rem;
-  background: url('../assets/images/dailog-map-bg.png') no-repeat;
+  background: rgb(159, 154, 154);
   background-size: 100%;
   position: relative;
   &::before {

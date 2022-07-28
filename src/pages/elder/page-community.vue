@@ -147,8 +147,7 @@ export default {
   .top-info {
     width: 100%;
     height: 0.99rem;
-    background: url('../assets/images/home-top-center-bg.png') no-repeat;
-    background-size: 100%;
+    background: rgba(154, 180, 223, 1);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -194,8 +193,7 @@ export default {
     .box-info {
       width: 1.04rem;
       height: 0.91rem;
-      background: url('../assets/images/home-bottom-box-bg.png') no-repeat;
-      background-size: 100%;
+      background: rgba(154, 180, 223, 1);
       padding: 0.16rem 0.26rem 0.18rem;
       display: flex;
       flex-direction: column;
