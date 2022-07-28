@@ -19,11 +19,13 @@ export default {
 .home-page {
   width: 100%;
   height: 100%;
-}
-main {
-  width: 100%;
-  height: 100%;
-  display: grid;
-  place-content: center;
+  main {
+    width: 30%;
+    height: 100%;
+    display: grid;
+    place-content: center;
+    font-size: 3em;
+    background: #2222;
+  }
 }
 </style>
