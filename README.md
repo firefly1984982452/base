@@ -1,8 +1,9 @@
-## 一个vue框架常用的基础功能
+## 一个 vue 框架常用的基础功能
 
-> 一个vue框架常用的基础功能
+> 一个 vue 框架常用的基础功能
 
 ### 项目结构
+
 ```
 ├── build  #webpack编译相关文件目录，一般不用动
 ├── config  #配置目录，一般不用动
@@ -36,12 +37,11 @@
 
 ## 项目约定
 
-
 ## 启动步骤
 
-``` bash
+```bash
 # 安装项目依赖
-npm install --registry https://i.youbankeji.com/nexus/content/groups/youban-npm/
+npm install
 
 # 本地运行
 npm run dev
