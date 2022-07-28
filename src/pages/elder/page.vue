@@ -2,7 +2,7 @@
   <div class="global-page">
     <div class="global-page-left">
       <div class="global-box">
-        <BoxTitle :title="'性别比例1'" />
+        <BoxTitle :title="'性别比例'" />
         <ehcart style="margin: .21rem 0 0 0" config='home-志愿者' height="1rem" />
       </div>
       <div class="global-box">
