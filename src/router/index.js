@@ -1,34 +1,33 @@
-import Vue from 'vue'
-import Router from 'vue-router'
-import Home from '@/pages/home'
-import Page from '@/pages/page'
-import PageElder from '@/pages/elder/page'
-import PageResource from '@/pages/resource/page'
+import Vue from 'vue';
+import Router from 'vue-router';
+import Page from '@/pages/page';
+import Home from '@/pages/home/home';
+import PageElder from '@/pages/elder/page';
 
-Vue.use(Router)
+Vue.use(Router);
 
 export default new Router({
   routes: [
     {
       path: '/',
-      name: 'Home',
-      component: Home,
-      children: [{
-        path:"",
-        redirect: 'page'
-      },{
-        path:'page',
-        name:'xx1',
-        component: Page
-      },{
-        path:'PageElder',
-        name:'xx1',
-        component: PageElder
-      },{
-        path:'PageResource',
-        name:'xx2',
-        component: PageResource
-      }]
-    }
-  ]
-})
+      name: 'Page',
+      component: Page,
+      children: [
+        {
+          path: '',
+          redirect: 'home',
+        },
+        {
+          path: 'home',
+          name: 'xx1',
+          component: Home,
+        },
+        {
+          path: 'PageElder',
+          name: 'xx1',
+          component: PageElder,
+        },
+      ],
+    },
+  ],
+});
